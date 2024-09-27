@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7035291765"))
 PORT = os.environ.get("PORT", "8082")
 
 #Database 
-DB_URI = "mongodb+srv://mrjackjackiechan:mrjackjackiechan@cluster0.cojfvuo.mongodb.net/?retryWrites=true&w=majority"
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://tharkihoobooji:tharkihoobooji@cluster0.mjjlip2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = os.environ.get("DATABASE_NAME", "tharkihoobooji")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "1a8d5a6c86fa77f79e29a13efd2e854f94464274")
